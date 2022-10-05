@@ -9,7 +9,6 @@ router.get('/', (req, res) => {
 // POST REQUEST API
 router.post('/students', async (req, res) => {
     try {
-        // res.send("Hello Students")
         const user = new Student(req.body);
         const createUser = await user.save();
         res.status(201).send(createUser);
@@ -17,7 +16,6 @@ router.post('/students', async (req, res) => {
     } catch (err) {
         res.status(400).send(err)
     }
-
 });
 
 // GET REQUEST API

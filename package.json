@@ -20,7 +20,7 @@
   "homepage": "https://github.com/bhaveshgarg2000/Mongodb-Mongoose-CRUD#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "mongoose": "^6.4.0",
+    "mongoose": "^6.4.4",
     "validator": "^13.7.0"
   },
   "devDependencies": {
